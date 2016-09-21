@@ -1,0 +1,23 @@
+<header>
+    <router-outlet name="header"></router-outlet>
+    <router-outlet name="navbar"></router-outlet>
+</header>
+<main>
+    <div class="container body-content">
+
+        <div>
+            <div style="float:left; width:250px; height: 400px;">
+                <router-outlet name="sidemenu"></router-outlet>
+            </div>
+            <router-outlet></router-outlet>
+            <div style="float:right; width:250px;">
+                <router-outlet name="rightmenu"></router-outlet>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <hr/>
+    </div>
+</main>
+<footer>
+    <router-outlet name="footer"></router-outlet>
+</footer>
