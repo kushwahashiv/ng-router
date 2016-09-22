@@ -1,8 +1,8 @@
 {
   "name": "ng-router",
   "version": "0.0.1",
-  "description": "WizeWorks Frontend - A mobile backend as a service designing platform",
-  "author": "Wizni, Inc.",
+  "description": "Angular 2 Router and router-outlet uses.",
+  "author": "kushwaha.shiv@outlook.com",
   "homepage": "https://github.com/kushwahashiv/ng-router",
   "license": "MIT",
   "repository": {
